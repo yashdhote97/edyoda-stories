@@ -1,0 +1,45 @@
+#category-main{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:16px;
+    padding-top:8px;
+    margin-bottom:20px;
+  }
+  #heading{
+    color:#000;
+    margin:6px 0;
+    font-weight:600;
+  }
+  .category-ele{
+    display:inline-block;
+    padding:4px 12px;
+    padding-bottom: 8px;
+    width:auto;
+    color:#0084ff;
+    border:#0084ff solid 1px;
+    text-align: center;
+    margin:5px 0;
+    border-radius:15px;
+    cursor:pointer;
+    margin-right: 10px;
+  }
+  .active{
+    color:#fff;
+    background-color:#0084ff;
+  }
+  #category{
+    display: flex;
+    flex-wrap: wrap;
+    font-size:16px;
+    padding-top:16px;
+  }
+  #filter-text{
+    font-size:14px;
+    font-weight:600;
+    margin-left:8px;
+  }
+  .category-ele p{
+    margin:0;
+    font-size: 14px;
+  }

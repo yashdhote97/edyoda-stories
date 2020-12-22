@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400&display=swap');
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+.App{
+width:100%;
+}
+.insideApp{
+  padding: 2% 16%;
+  margin-top: 80px;
+  background-color: #f2f6ff;
+  min-height: 100vh;
+}
+.cardGrid{
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  font-family: 'Raleway', sans-serif;
+}
+
+.Footer{
+  background-color: #172146;
+  font-family: 'Raleway', sans-serif;
+  padding: 80px 16%;
+  color: #fff;
+  width: 100%;
+}
